@@ -1,0 +1,100 @@
+.areaSubtitle,
+.areaTitle {
+  align-self: stretch;
+  position: relative;
+}
+.areaTitle {
+  margin: 0;
+  font-size: inherit;
+  line-height: 48px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.areaSubtitle {
+  font-size: var(--body-large-400-size);
+  line-height: 28px;
+  color: var(--gray-400);
+}
+.areaLabels,
+.propertiesRow {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+.areaLabels {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xl);
+  box-sizing: border-box;
+  gap: 24px 0;
+  max-width: 95%;
+}
+.propertiesRow {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--gap-67xl);
+  text-align: left;
+  font-size: var(--body-regular-400-size);
+  color: var(--gray-700);
+}
+.areaContent,
+.propertiesByAreaFeatureCar {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.areaContent {
+  padding: var(--padding-56xl) 0 0;
+  box-sizing: border-box;
+  gap: 54px 0;
+  max-width: 95%;
+}
+.propertiesByAreaFeatureCar {
+  background-color: var(--primary-50);
+  padding: var(--padding-51xl) 0;
+  text-align: center;
+  font-size: var(--heading-heading-1-size);
+  color: var(--primary-800);
+  font-family: var(--body-large-400);
+}
+@media screen and (max-width: 1200px) {
+  .propertiesByAreaFeatureCar {
+    gap: 107px 0;
+  }
+}
+@media screen and (max-width: 825px) {
+  .areaTitle {
+    font-size: var(--font-size-13xl);
+    line-height: 38px;
+  }
+  .propertiesRow {
+    gap: var(--gap-67xl);
+  }
+  .areaContent {
+    gap: 54px 0;
+    padding-top: var(--padding-30xl);
+    box-sizing: border-box;
+  }
+  .propertiesByAreaFeatureCar {
+    gap: 107px 0;
+    padding-top: var(--padding-26xl);
+    padding-bottom: var(--padding-26xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .areaTitle {
+    font-size: var(--header-heading-4-size);
+    line-height: 29px;
+  }
+  .areaSubtitle {
+    font-size: var(--body-regular-400-size);
+    line-height: 22px;
+  }
+  .propertiesRow {
+    gap: var(--gap-67xl);
+  }
+}

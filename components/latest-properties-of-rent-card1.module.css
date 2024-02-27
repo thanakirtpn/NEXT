@@ -1,0 +1,132 @@
+.latestPropertiesOf {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 48px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.vestibulumAnteIpsum {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--body-large-400-size);
+  line-height: 28px;
+  color: var(--gray-400);
+}
+.cardRow,
+.contents,
+.text {
+  display: flex;
+  max-width: 100%;
+}
+.text {
+  width: 728px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: 24px 0;
+}
+.cardRow,
+.contents {
+  align-self: stretch;
+}
+.cardRow {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-21xl);
+  text-align: left;
+  font-size: var(--body-regular-400-size);
+  color: var(--gray-white);
+}
+.contents {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 40px 0;
+}
+.loadMoreListing {
+  position: relative;
+  font-size: var(--body-regular-400-size);
+  line-height: 24px;
+  font-weight: 500;
+  font-family: var(--body-large-400);
+  color: var(--gray-white);
+  text-align: center;
+}
+.cta,
+.latestPropertiesOfRentCard {
+  display: flex;
+  justify-content: flex-start;
+}
+.cta {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-xl) var(--padding-xs)
+    var(--padding-5xl);
+  background-color: var(--primary-500);
+  border-radius: var(--br-9xs);
+  flex-direction: row;
+  align-items: flex-start;
+  white-space: nowrap;
+}
+.cta:hover {
+  background-color: var(--color-steelblue-100);
+}
+.latestPropertiesOfRentCard {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-67xl) 0;
+  box-sizing: border-box;
+  gap: 39px 0;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--heading-heading-1-size);
+  color: var(--primary-800);
+  font-family: var(--body-large-400);
+}
+@media screen and (max-width: 1200px) {
+  .latestPropertiesOfRentCard {
+    padding-top: var(--padding-37xl);
+    padding-bottom: var(--padding-37xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 825px) {
+  .latestPropertiesOf {
+    font-size: var(--font-size-13xl);
+    line-height: 38px;
+  }
+  .cardRow {
+    gap: var(--gap-21xl);
+  }
+  .contents {
+    gap: 40px 0;
+  }
+  .latestPropertiesOfRentCard {
+    gap: 39px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .latestPropertiesOf {
+    font-size: var(--header-heading-4-size);
+    line-height: 29px;
+  }
+  .vestibulumAnteIpsum {
+    font-size: var(--body-regular-400-size);
+    line-height: 22px;
+  }
+  .cta {
+    width: calc(100% - 40px);
+  }
+  .latestPropertiesOfRentCard {
+    padding-top: var(--padding-17xl);
+    padding-bottom: var(--padding-17xl);
+    box-sizing: border-box;
+  }
+}

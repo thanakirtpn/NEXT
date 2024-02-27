@@ -1,0 +1,319 @@
+.houselineIcon {
+  height: 44px;
+  width: 44px;
+  position: relative;
+}
+.reis {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 24px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.realState {
+  position: relative;
+  font-size: var(--body-small-400-size);
+  line-height: 16px;
+  font-weight: 500;
+}
+.logo,
+.reisParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.logo {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0 8px;
+}
+.contactUs1 {
+  margin: 0;
+  position: relative;
+  font-size: var(--header-heading-4-size);
+  line-height: 32px;
+  font-weight: 600;
+  font-family: inherit;
+  color: var(--gray-black);
+}
+.call123,
+.praesentNullaMassa {
+  position: relative;
+  line-height: 24px;
+}
+.praesentNullaMassa {
+  align-self: stretch;
+}
+.emailExamplemailcom {
+  position: relative;
+  line-height: 24px;
+  color: var(--gray-700);
+}
+.contactDetails {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 13px 0;
+  text-align: left;
+  font-size: var(--body-regular-400-size);
+  color: var(--gray-500);
+  font-family: var(--body-regular-400);
+}
+.socialMediaLogo {
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+.socialMediaCard {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm);
+  background-color: var(--primary-50);
+  border-radius: var(--br-9xs);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.socialMediaLogo1 {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.socialMediaCard1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm);
+  background-color: var(--primary-50);
+  border-radius: var(--br-9xs);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.socialMediaLogo2 {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.socialMediaCard2 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm);
+  background-color: var(--primary-50);
+  border-radius: var(--br-9xs);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.socialMediaLogo3 {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.socialMediaCard3 {
+  border-radius: var(--br-9xs);
+  background-color: var(--primary-50);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-sm);
+}
+.socialMediaLogo4 {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.socialMediaCard4 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm);
+  background-color: var(--primary-50);
+  border-radius: var(--br-9xs);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.socialMedia {
+  width: 304px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-base);
+}
+.contactUs {
+  width: 312px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px 0;
+  text-align: center;
+  color: var(--primary-500);
+  font-family: var(--body-large-400);
+}
+.features1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 32px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.becomeAHost,
+.blog,
+.contact,
+.home,
+.pricing {
+  position: relative;
+  line-height: 24px;
+}
+.features,
+.featuresSubCategories {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.featuresSubCategories {
+  align-self: stretch;
+  gap: 16px 0;
+  font-size: var(--body-regular-400-size);
+  color: var(--gray-500);
+}
+.features {
+  width: 173px;
+  gap: 32px 0;
+}
+.company1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 32px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.aboutUs,
+.blog1,
+.careers,
+.contact1,
+.press {
+  position: relative;
+  line-height: 24px;
+}
+.company,
+.companySubCategories {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.companySubCategories {
+  align-self: stretch;
+  gap: 16px 0;
+  font-size: var(--body-regular-400-size);
+  color: var(--gray-500);
+}
+.company {
+  width: 173px;
+  gap: 32px 0;
+}
+.teamAndPolicies {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 32px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.privacyPolicy,
+.security,
+.termsOfServies {
+  position: relative;
+  line-height: 24px;
+}
+.termsAndPolicies,
+.termsAndPoliciesSubcategori {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.termsAndPoliciesSubcategori {
+  align-self: stretch;
+  gap: 16px 0;
+  font-size: var(--body-regular-400-size);
+  color: var(--gray-500);
+}
+.termsAndPolicies {
+  width: 203px;
+  gap: 32px 0;
+}
+.footer,
+.footerSection {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.footer {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.footerSection {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: var(--padding-31xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--header-heading-4-size);
+  color: var(--gray-black);
+  font-family: var(--body-regular-400);
+}
+@media screen and (max-width: 1200px) {
+  .footer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footerSection {
+    padding-left: var(--padding-6xl);
+    padding-right: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .reis {
+    font-size: var(--font-size-lgi);
+    line-height: 19px;
+  }
+  .company1,
+  .contactUs1,
+  .features1,
+  .teamAndPolicies {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .footerSection {
+    padding-top: var(--padding-13xl);
+    padding-bottom: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+}
